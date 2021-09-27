@@ -1,0 +1,14 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.DetailsBusModel
+@{
+    var bus = Model.Bus;
+}
+ 
+<ul class="list-group list-group-flush">
+  <li class="list-group-item"> <b>id: </b> @bus.ID</li>
+  <li class="list-group-item"> <b>Marca: </b> @bus.MARCA</li>
+  <li class="list-group-item"> <b>Modelo: </b> @bus.MODELO</li>
+  <li class="list-group-item"><b>Kilometraje: </b> @bus.KILOMETRAJE</li>
+  <li class="list-group-item"><b>Numero de asientos: </b> @bus.ASIENTOS</li>
+  <li class="list-group-item"><b>Placa: </b> @bus.PLACA</li>
+</ul>	
