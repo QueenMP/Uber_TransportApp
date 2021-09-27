@@ -3,12 +3,12 @@
     @foreach (var bus in Model.Buses)
     {
         <tr>
-            <td>@bus.ID</td>
-            <td>@bus.MARCA</td>
-            <td>@bus.MODELO</td>
-            <td>@bus.KILOMETRAJE</td>
-            <td>@bus.ASIENTOS</td>
-            <td>@bus.PLACA</td>
+            <td>@bus.id</td>
+            <td>@bus.marca</td>
+            <td>@bus.modelo</td>
+            <td>@bus.kilometraje</td>
+            <td>@bus.numero_asientos</td>
+            <td>@bus.placa</td>
             <td>
               <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
               <a class="btn btn-info" href="">Editar</a>
