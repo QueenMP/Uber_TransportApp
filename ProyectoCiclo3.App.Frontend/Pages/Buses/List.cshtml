@@ -1,3 +1,7 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.ListBusModel
+@{
+}
 <h1>Listado de los buses</h1>
 <table class="table">
     @foreach (var bus in Model.Buses)
@@ -11,7 +15,7 @@
             <td>@bus.placa</td>
             <td>
               <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" href="">Editar</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
         </tr>
