@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "t1R+VRc/Af0CtKVuguXCB4jU/5uAxKFDNiXjw5/5lV6HvivyZy2MMreelFDRB21A5fNM7SuXUscsqWoiHRfsXg==",
+  "dgSpecHash": "cUC8qVaRDnFg91MEvRYcd7aKBX5XHl6najouBJcZts8s0hRtGGDv2Y7AS8suVC7Ufk1THQq+Pwp2OBwHYIeYFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Queen\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\teenc\\Desktop\\.Net Proyecto\\Repositorio Quuen\\Uber_TransportApp\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Queen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Queen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\teenc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\teenc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

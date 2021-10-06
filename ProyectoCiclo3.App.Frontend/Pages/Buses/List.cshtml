@@ -2,6 +2,7 @@
 @model ProyectoCiclo3.App.Frontend.Pages.ListBusModel
 @{
 }
+
 <h1>Listado de los buses</h1>
 <style>
 table {
@@ -24,6 +25,15 @@ th {
 tr:hover {background-color: slateblue;}
 </style>
 <table class="table">
+    <tr>
+      <td>Identificador</td>
+      <td>Marca</td>
+      <td>Modelo</td>
+      <td>Kilometraje</td>
+      <td>Cantidad Asientos</td>
+      <td>Placa</td>
+    </tr>
+
     @foreach (var bus in Model.Buses)
     {
         <tr>
